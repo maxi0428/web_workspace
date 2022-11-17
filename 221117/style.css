@@ -1,7 +1,8 @@
 
-.logo_container span {
+.logo_container {
     font-size: 45px;
     text-align: center;
+    color: blue;
 }
 .menu {
     width: 1200px;
