@@ -2,7 +2,6 @@
 .logo_container {
     font-size: 45px;
     text-align: center;
-    color: blue;
 }
 .menu {
     width: 1200px;
@@ -15,7 +14,7 @@
     float: left;
     text-align: center;
     line-height: 40px;
-    background-color: #5778ff;
+    background-color: #a1b4ff;
   }
   
   .menu a {
@@ -120,4 +119,198 @@ body{ background-color: #ededed; }
     border: none;
     background-color: #1673ea;
     color: #fff; font-size: 14px; font-weight: bold;
+}
+
+.tab_project{
+    list-style-type: none;
+}
+
+.tab_project > li{
+    float: left;
+    margin-top: 30px;
+    background: #3498DB;
+    padding: 10px;
+}
+
+.pro_1{
+    height: 100px;
+    background-color: #e7f56c;
+    text-align: center;
+    
+}
+.pro_1 select{
+    margin: 20px;
+
+}
+.pro_1 input{
+    display: table-cell;
+    vertical-align: middle;
+    height: 60px;
+    margin: 20px;
+}
+.pro_1 textarea{
+    display: table-cell;
+    vertical-align: middle;
+    height: 60px;
+    margin: 20px;
+}
+.pro_2{
+    height: 100px;
+    background-color: #e7f56c;
+    text-align: center;
+}
+.pro_2 select{
+    margin: 20px;
+}
+.pro_2 div{
+    display: inline-block; /* inline-block일때에만 가운데 정렬 가능 */
+    height: 60px;
+    margin: 20px;
+}
+.pro_3{
+    height: 100px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.pro_3 select{
+    margin: 20px;
+}
+.pro_3 div{
+    display: inline-block; /* inline-block일때에만 가운데 정렬 가능 */
+    height: 60px;
+    margin: 20px;
+}
+
+.d-none{
+
+    display: none;
+
+}
+
+ 
+
+.board{
+
+    width: 1200px;
+
+    height: 100%;
+
+    margin: auto;
+
+}
+
+ 
+
+.table{
+
+    font-size :20px;
+
+    border-collapse: collapse;
+
+    width: 1200px;
+
+    margin-top:200px;
+
+    border: 1px solid gray;    
+
+    text-align: center;
+
+    
+
+}
+
+.thead td {
+
+    background: #B2B2B2;
+
+}
+
+ 
+
+td{
+
+    height: 40px;
+
+    border-bottom:1px solid black;
+
+}
+
+ 
+
+tr td:nth-child(2){
+
+    width: 750px;
+
+}
+
+ 
+
+/* ********페이징******** */
+
+.page-nation li{ 
+
+    list-style: none;
+
+} 
+
+ 
+
+.page-wrap {
+
+    text-align:center;
+
+    font-size:0;
+
+ }
+
+.page-nation  {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-top:20px;
+
+}
+
+ 
+
+.page-nation a {
+
+    display:block;
+
+    margin:0 3px;
+
+    float:left;
+
+    border:1px solid #e6e6e6;
+
+    width:28px;
+
+    height:28px;
+
+    line-height:28px;
+
+    text-align:center;
+
+    background-color:#fff;
+
+    font-size:13px;
+
+    color:black;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.page-nation a:hover{
+
+    background-color:gray;
+
+    color:white;
+
 }
